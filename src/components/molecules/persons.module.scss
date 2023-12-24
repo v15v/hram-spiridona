@@ -1,16 +1,13 @@
 .persons {
-  padding: 37px 1em 0 1em;
-  background-color: #2b83ff;
-  color: #e6e6e6;
-  align-items: center;
-  display: table;
-  max-width: 800px;
-  margin: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: center;
+  gap: 10px 100px;
+  padding: 3em;
+  flex-wrap: wrap;
 }
 
 .person {
-  margin: auto;
-  max-width: 300px;
-  display: table-cell;
-  padding: 0 5em;
 }
