@@ -1,7 +1,7 @@
 import React from 'react';
 import {StaticImage} from "gatsby-plugin-image"
 import {Carousel} from 'antd';
-import * as styles from './carousel.module.css'
+import * as styles from './carousel.module.scss'
 
 const MyCarousel = () => (
     <Carousel id={"home"} autoplay={true} autoplaySpeed={5000}>
@@ -13,11 +13,15 @@ const MyCarousel = () => (
                 formats={["auto", "webp", "avif"]}
                 alt=""
             />
-            <p className={styles.text}>
-                Всегда радуйтесь, непрестанно молитесь, за все
-                благодарите...<br />
-                Первое послание к Фессалоникийцам святого Апостола Павла
-            </p>
+            <div className={styles.quoteBlock}>
+                <p className={styles.quote}>
+                    Всегда радуйтесь, непрестанно молитесь, за все
+                    благодарите...
+                </p>
+                <p className={styles.signature}>
+                    Первое послание к Фессалоникийцам святого Апостола Павла
+                </p>
+            </div>
         </div>
         <div>
             <StaticImage
@@ -27,10 +31,14 @@ const MyCarousel = () => (
                 formats={["auto", "webp", "avif"]}
                 alt=""
             />
-            <p className={styles.text}>
-                Царство уготовано для нас еще до создания мира<br />
-                Святитель Иоанн Златоуст
-            </p>
+            <div className={styles.quoteBlock}>
+                <p className={styles.quote}>
+                    Царство уготовано для нас еще до создания мира
+                </p>
+                <p className={styles.signature}>
+                    Святитель Иоанн Златоуст
+                </p>
+            </div>
         </div>
         <div>
             <StaticImage
@@ -40,10 +48,15 @@ const MyCarousel = () => (
                 formats={["auto", "webp", "avif"]}
                 alt=""
             />
-            <p className={styles.text}>
-                Совершенство христианина – в совершенной любви к ближнему<br />
-                Святитель Игнатий (Брянчанинов)
-            </p>
+            <div className={styles.quoteBlock}>
+                <p className={styles.quote}>
+                    Совершенство христианина – в совершенной любви к
+                    ближнему
+                </p>
+                <p className={styles.signature}>
+                    Святитель Игнатий (Брянчанинов)
+                </p>
+            </div>
         </div>
     </Carousel>
 );
