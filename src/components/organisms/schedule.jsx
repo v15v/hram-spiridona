@@ -5,7 +5,7 @@ import * as styles from "./schedule.module.scss"
 export default function Schedule() {
     const data = useStaticQuery(graphql`
         query ScheduleQuery {
-            markdownRemark(frontmatter: {url: {eq: "raspisanie-bogosluzhenij"}}) {
+            markdownRemark(frontmatter: {category: {eq: "schedule"}}) {
                 frontmatter {
                     title
                     url

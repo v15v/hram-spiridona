@@ -1,5 +1,6 @@
 ---
 title: "Контакты"
+category: contacts
 url: "contacts"
 ---
 

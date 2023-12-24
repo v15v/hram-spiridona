@@ -1,5 +1,6 @@
 ---
 title: "Расписание богослужений"
+category: schedule
 url: "raspisanie-bogosluzhenij"
 ---
 

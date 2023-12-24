@@ -5,7 +5,7 @@ import * as styles from "./contacts.module.scss"
 export default function Contacts() {
     const data = useStaticQuery(graphql`
         query ContactsQuery {
-            markdownRemark(frontmatter: {url: {eq: "contacts"}}) {
+            markdownRemark(frontmatter: {category: {eq: "contacts"}}) {
                 frontmatter {
                     title
                     url

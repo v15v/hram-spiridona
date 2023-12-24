@@ -6,7 +6,7 @@ import Persons from "../molecules/persons";
 export default function About() {
     const data = useStaticQuery(graphql`
         query AboutQuery {
-            markdownRemark(frontmatter: {url: {eq: "about"}}) {
+            markdownRemark(frontmatter: {category: {eq: "about"}}) {
                 html
             }
         }

@@ -1,5 +1,6 @@
 ---
 title: О храме
+category: about
 url: about
 ---
 
