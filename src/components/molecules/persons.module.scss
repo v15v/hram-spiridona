@@ -1,9 +1,9 @@
 .persons {
-  padding: 37px 1em 5em 1em;
+  padding: 37px 1em 0 1em;
   background-color: #2b83ff;
   color: #e6e6e6;
   align-items: center;
-  display: flex;
+  display: table;
   max-width: 800px;
   margin: auto;
 }
@@ -11,4 +11,6 @@
 .person {
   margin: auto;
   max-width: 300px;
+  display: table-cell;
+  padding: 0 5em;
 }
