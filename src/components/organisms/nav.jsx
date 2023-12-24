@@ -4,7 +4,7 @@ import {Link} from "gatsby"
 
 const items = [
     {
-        label: (<Link to="#home">Главная</Link>),
+        label: (<Link to="/">Главная</Link>),
         key: 'home',
         // icon: <MailOutlined />,
     },
