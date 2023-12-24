@@ -1,0 +1,24 @@
+.block{
+    padding: 37px 1em 5em 1em;
+    background-color: #1c1b23;
+    color: #e6e6e6;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    padding: 0 1em;
+    //width: 30%;
+
+    div {
+        color: red;
+        font-size: x-small;
+    }
+}
+
+h2 {
+    text-align: center;
+}

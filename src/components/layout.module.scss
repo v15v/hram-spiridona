@@ -1,0 +1,22 @@
+.container {
+  width: 100%; /* Ширина контейнера 100% */
+  max-width: 1200px; /* Ширина контента 1300 */
+  padding-left: 10px; /* Отступ слева */
+  padding-right: 10px; /* Отступ справа */
+  margin: 0 auto; /* Расположение контейнера посередине */
+}
+
+body {
+  background-color: #1f1f1f;
+  padding-top: 37px;
+}
+
+p {
+  max-width: 800px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
