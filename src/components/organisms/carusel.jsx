@@ -3,13 +3,6 @@ import {StaticImage} from "gatsby-plugin-image"
 import {Carousel} from 'antd';
 import * as styles from './carousel.module.css'
 
-const contentStyle = {
-    // height: '160px',
-    color: '#fff',
-    // lineHeight: '160px',
-    textAlign: 'center',
-    // background: '#364d79',
-};
 const MyCarousel = () => (
     <Carousel id={"home"} autoplay={true} autoplaySpeed={5000}>
         <div>
